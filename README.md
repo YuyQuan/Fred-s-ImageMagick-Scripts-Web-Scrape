@@ -12,14 +12,7 @@ I wish the website had some .zip download that contained all the scripts so that
 
 Web-Scrapped with `get_imagemagick_scripts.py`.
 
-Packages used:
-import requests
-from bs4 import BeautifulSoup
-from urllib.request import urlretrieve
-from urllib.request import urlopen
-import cgi
-
-Run with 
+If you want to scrape an updated list, simply run `get_imagemagick_scripts.py`. Else, the bin directory has everything already downloaded.
 
 This is not unlike another mirror that exists: https://github.com/guzuomuse/fmwconcepts-imagemagicktools
 
@@ -27,4 +20,4 @@ I made this to get an updated version of the scripts, as well as use an alternat
 
 ## Edits made
 
-`bin/3Drotate_animate`: change the hardcoded `infile` and `outfile` to parameters specified by user.
+`bin/3Drotate_animate`: change the hardcoded `infile` and `outfile` to parameters specified by user. Call dependency from current directory: `3Drotate` -> `./3Drotate`
